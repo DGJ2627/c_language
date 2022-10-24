@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#define p printf
+#define s scanf
+
+main()
+{
+     int n;
+     clrscr();
+     p("Enter the value of n:");
+     s("%d",&n);
+     do
+     {
+	   p("%d \t",n);
+	   n--;
+     }while (n>=1);
+     getch();
+}
